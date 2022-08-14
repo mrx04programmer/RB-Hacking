@@ -7,7 +7,7 @@
 * PortSpecific : Scanner for devices in port rang specific
 * Rubbet: Server and Client ports TCP (Using Tunnel Connection)
 * ssl validator: Validator of Certificates SSL of a page or host.
-
+* ddos attack: Attack ddos simple and visible for pentesting in a control environment
 <img src="https://raw.githubusercontent.com/mrx04programmer/RB-Hacking/master/execute.png" width="20%" height="20%">
 
 * CoffeToScript:
@@ -29,4 +29,8 @@
 * ssl validator:
 ```
  ruby ssl_validator.rb <host or website link>
+```
+* ddos attack:
+```
+ ruby ddos.rb <host or website> <number zombies>
 ```
